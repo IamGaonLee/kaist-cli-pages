@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>kaist-cli</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", "Malgun Gothic", sans-serif; max-width: 760px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #1a1a1a; }
+  h1 { margin-bottom: 4px; } .sub { color: #555; margin-top: 0; }
+  section { margin-top: 28px; } a { color: #1a56b0; }
+</style>
+</head>
+<body>
+<h1>kaist-cli</h1>
+<p class="sub">A personal, read-only desktop tool for one KAIST student's coursework schedule.</p>
+
+<section>
+<h2>What it does</h2>
+<p>kaist-cli is a command-line tool that runs only on its developer's own Windows PC. It reads the developer's own course information
+(assignments, deadlines, notices, exam schedules) and organizes it for personal study use.</p>
+<ul>
+  <li><b>Google Calendar</b> (scope <code>calendar.app.created</code>): creates one secondary calendar named "KLMS" and adds deadline and exam events to it.
+      It cannot see or change any other calendar.</li>
+  <li><b>Gmail</b> (scope <code>gmail.readonly</code>, read-only): reads school e-mails that the developer's university mailbox forwards to the developer's own Gmail,
+      to find exam and class-cancellation notices. It never sends, deletes, or modifies e-mail.</li>
+</ul>
+<p>The app is not offered to the public. It is used by a single person, its developer.</p>
+</section>
+
+<section>
+<h2>소개 (한국어)</h2>
+<p>kaist-cli는 개발자 본인의 Windows PC에서만 실행되는 개인용 명령줄 도구입니다. 본인의 수강 과목 정보(과제, 마감, 공지, 시험 일정)를 읽어 개인 학습용으로 정리합니다.
+구글 캘린더는 이 앱이 만든 "KLMS" 캘린더 하나에만 일정을 넣고, Gmail은 학교 메일에서 전달된 메일을 <b>읽기만</b> 합니다. 일반 사용자에게 제공하지 않습니다.</p>
+</section>
+
+<section>
+<p><a href="privacy.html">Privacy Policy / 개인정보처리방침</a></p>
+</section>
+</body>
+</html>
